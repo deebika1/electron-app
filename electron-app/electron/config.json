@@ -1,0 +1,83 @@
+{
+    "env": {
+        "dev": {
+            "azureURL": "https://tools3.integra.co.in/iwms-blob-service-dev/",
+            "localURL": "https://tools3.integra.co.in/iwms-blob-service-dev/",
+            "serverURL": "http://localhost:5000/",
+            "serverToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoid21zYXBwIiwiaWF0IjoxNjMzMzUxMTQzfQ.MgBfqlTAkK90Ks0Y6dnPBmGbju79zY-T2jQfb46jAUU",
+            "okmURL": "http://172.16.200.181:8086/OpenKM/rest-service/api/",
+            "AppURL": "/okm:root/electron_repo/ui_build/build.zip",
+            "UtilityURL": "/okm:root/electron_repo/utility/build.zip",
+            "getUuid": "api/utils/okm/getUuid",
+            "AppVersion": "1.0",
+            "UtilityVersion": "1.0",
+            "VersionCheckURL": "auth/get/getElectronVersionDetails"
+        },
+        "prod": {
+            "azureURL": "https://tools3.integra.co.in/iwms-blob-service-dev/",
+            "localURL": "https://tools3.integra.co.in/iwms-blob-service-dev/",
+            "serverURL": "https://iwmsservice-dev.azurewebsites.net/",
+            "serverToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoid21zYXBwIiwiaWF0IjoxNjMzMzUxMTQzfQ.MgBfqlTAkK90Ks0Y6dnPBmGbju79zY-T2jQfb46jAUU",
+            "okmURL": "http://172.16.200.181:8086/OpenKM/rest-service/api/",
+            "AppURL": "/okm:root/electron_repo/ui_build/build.zip",
+            "UtilityURL": "/okm:root/electron_repo/utility/build.zip",
+            "getUuid": "api/utils/okm/getUuid",
+            "AppVersion": "1.0",
+            "UtilityVersion": "1.0",
+            "VersionCheckURL": "auth/get/getElectronVersionDetails"
+        },
+        "test": {
+            "azureURL": "https://tools3.integra.co.in/iwms-blob-service-test/",
+            "localURL": "https://tools3.integra.co.in/iwms-blob-service-test/",
+            "serverURL": "http://localhost:5000/",
+            "serverToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoid21zYXBwIiwiaWF0IjoxNjMzMzUxMTQzfQ.MgBfqlTAkK90Ks0Y6dnPBmGbju79zY-T2jQfb46jAUU",
+            "okmURL": "http://20.205.158.20:8086/OpenKM/rest-service/api/",
+            "AppURL": "/okm:root/electron_repo/ui_build/build.zip",
+            "UtilityURL": "/okm:root/electron_repo/utility/build.zip",
+            "getUuid": "api/utils/okm/getUuid",
+            "AppVersion": "1.0",
+            "UtilityVersion": "1.0",
+            "VersionCheckURL": "auth/get/getElectronVersionDetails"
+        },
+        "uat": {
+            "azureURL": "https://tools3.integra.co.in/iwms-blob-service-uat/",
+            "localURL": "https://tools3.integra.co.in/iwms-blob-service-uat/",
+            "serverURL": "https://iwms-service-uat-gubwavgnaedbbsc2.centralindia-01.azurewebsites.net/",
+            "serverToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoid21zYXBwIiwiaWF0IjoxNjMzMzUxMTQzfQ.MgBfqlTAkK90Ks0Y6dnPBmGbju79zY-T2jQfb46jAUU",
+            "okmURL": "http://20.205.158.20:8086/OpenKM/rest-service/api/",
+            "AppURL": "/okm:root/electron_repo/ui_build/build.zip",
+            "UtilityURL": "/okm:root/electron_repo/utility/build.zip",
+            "getUuid": "api/utils/okm/getUuid",
+            "AppVersion": "1.0",
+            "UtilityVersion": "1.0",
+            "VersionCheckURL": "auth/get/getElectronVersionDetails"
+        },
+        "azure": {
+            "azureURL": "https://wmstools.integra.co.in/iwms-blob-service/",
+            "localURL": "https://wmstools.integra.co.in/iwms-blob-service/",
+            "serverURL": "https://iwms-service-live.azurewebsites.net/",
+            "serverToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoid21zYXBwIiwiaWF0IjoxNjMzMzUxMTQzfQ.MgBfqlTAkK90Ks0Y6dnPBmGbju79zY-T2jQfb46jAUU",
+            "okmURL": "https://iwmsdmsps.azurewebsites.net/OpenKM/rest-service/api/",
+            "AppURL": "/okm:root/electron_repo/ui_build/build.zip",
+            "UtilityURL": "/okm:root/electron_repo/utility/build.zip",
+            "getUuid": "api/utils/okm/getUuid",
+            "AppVersion": "1.0",
+            "UtilityVersion": "1.0",
+            "VersionCheckURL": "auth/get/getElectronVersionDetails"
+        },
+        "azure-old": {
+            "azureURL": "https://iwmsblob.integra.co.in/",
+            "localURL": "https://tools3.integra.co.in/iwms-blob-service/",
+            "serverURL": "https://iwms.integra.co.in/service/",
+            "serverToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoid21zYXBwIiwiaWF0IjoxNjMzMzUxMTQzfQ.MgBfqlTAkK90Ks0Y6dnPBmGbju79zY-T2jQfb46jAUU",
+            "okmURL": "https://iwmsdmsps.azurewebsites.net/OpenKM/rest-service/api/",
+            "AppURL": "/okm:root/electron_repo/ui_build/build.zip",
+            "UtilityURL": "/okm:root/electron_repo/utility/build.zip",
+            "getUuid": "api/utils/okm/getUuid",
+            "AppVersion": "1.0",
+            "UtilityVersion": "1.0",
+            "VersionCheckURL": "auth/get/getElectronVersionDetails"
+        }
+    },
+    "mode": "test"
+}
